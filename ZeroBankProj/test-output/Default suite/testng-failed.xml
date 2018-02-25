@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ZeroBankProj.TestCases.TC_SignIn">
+        <methods>
+          <include name="signIn"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ZeroBankProj.TestCases.TC_SignIn -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
